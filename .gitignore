@@ -1,0 +1,26 @@
+# große Datenordner
+raw_json/
+processed/
+work/
+
+# Cache / Python
+__pycache__/
+Scripts/__pycache__/
+*.pyc
+
+# ZIP-Dateien
+*.zip
+
+# Standard: alles in Scripts ignorieren
+Scripts/*
+
+# Aber diese finalen Dateien erlauben
+!Scripts/__init__.py
+!Scripts/config_sep2025.py
+!Scripts/config_dez2025.py
+!Scripts/main_umwelt_week_sep2025.py
+!Scripts/main_umwelt_week_dez2025.py
+!Scripts/main_traffic_sep2025.py
+!Scripts/main_traffic_dez2025.py
+!Scripts/main_join_umwelt_traffic_sep2025.py
+!Scripts/main_join_umwelt_traffic_dez2025.py
